@@ -1,0 +1,366 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "🚗Car Crash Drive🚗",
+   LoadingTitle = "Dew Hub",
+   LoadingSubtitle = "by hayvn59",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("Standard 2", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "King Crown LTUNE",
+   Callback = function()
+local args = {
+    [1] = "King Crown LTUNE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Cherry Transport+",
+   Callback = function()
+local args = {
+    [1] = "Cherry Transport+"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Tyreota BoxTruck LTUNE",
+   Callback = function()
+local args = {
+    [1] = "Tyreota BoxTruck LTUNE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Tyreota F130 Tuned",
+   Callback = function()
+local args = {
+    [1] = "Tyreota F130 Tuned"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Nillan Z80 BTune",
+   Callback = function()
+local args = {
+    [1] = "Nillan Z80 BTune"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "BRW E36 TTune",
+   Callback = function()
+local args = {
+    [1] = "BRW E36 TTune"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Surpaus STE T",
+   Callback = function()
+local args = {
+    [1] = "Surpaus STE T"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Dodged Recharger TTUNE",
+   Callback = function()
+local args = {
+    [1] = "Dodged Recharger TTUNE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Tyrota Tupra TTune",
+   Callback = function()
+local args = {
+    [1] = "Tyrota Tupra TTune"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Tyreota F130 Monster Truck",
+   Callback = function()
+local args = {
+    [1] = "Tyreota F130 Monster Truck"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Ciy bus TTune",
+   Callback = function()
+local args = {
+    [1] = "City bus TTune"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "School bus DTUNE",
+   Callback = function()
+local args = {
+    [1] = "School bus DTUNE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Esta Teratosta TTune",
+   Callback = function()
+local args = {
+    [1] = "Esta Teratosta TTune"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Nillan R34 TTUNE",
+   Callback = function()
+local args = {
+    [1] = "Nillan R34 TTUNE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Laterallo Hurricane TTUNE",
+   Callback = function()
+local args = {
+    [1] = "Laterallo Hurricane TTUNE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Humvee",
+   Callback = function()
+local args = {
+    [1] = "Humvee"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Dump truck",
+   Callback = function()
+local args = {
+    [1] = "Dump truck"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local MainTab = Window:CreateTab("S-TUNES", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "Dump truck",
+   Callback = function()
+local args = {
+    [1] = "[STUNE]City bus STune"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "[STUNE]Esta Teratosta STune",
+   Callback = function()
+local args = {
+    [1] = "[STUNE]Esta Teratosta STune"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "[STUNE]Tyrota Tupra",
+   Callback = function()
+local args = {
+    [1] = "[STUNE]Tyrota Tupra"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "[STUNE]Nillan R34",
+   Callback = function()
+local args = {
+    [1] = "[STUNE]Nillan R34"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "[STUNE]Laterallo Hurricane",
+   Callback = function()
+local args = {
+    [1] = "[STUNE]Laterallo Hurricane"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+})
+
+local MainTab = Window:CreateTab("Tier 2", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 2]King Crown SIZE",
+   Callback = function()
+local args = {
+    [1] = "[TIER 2]King Crown SIZE"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+}
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 2]King Crown Armored",
+   Callback = function()
+local args = {
+    [1] = "[TIER 2]King Crown Armored"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+}
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 2]City bus",
+   Callback = function()
+local args = {
+    [1] = "[TIER 2]City bus"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+}
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 2]Rocket Semi",
+   Callback = function()
+local args = {
+    [1] = "[TIER 2]Rocket Semi"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+}
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 2]Monster truck",
+   Callback = function()
+local args = {
+    [1] = "[TIER 2]Monster truck"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+}
+
+local MainTab = Window:CreateTab("Tier 3", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 3]Tank",
+   Callback = function()
+local args = {
+    [1] = "[TIER]Tank"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 3]ThrusterSSC",
+   Callback = function()
+local args = {
+    [1] = "[TIER 3]ThrusterSSC"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
+
+local Button = MainTab:CreateButton({
+   Name = "[TIER 3]Mining truck",
+   Callback = function()
+local args = {
+    [1] = "[TIER 3]Mining truck"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnCar"):FireServer(unpack(args))
+   end,
